@@ -7,7 +7,7 @@ function Profile(){
         <section id="profile">
             {/* <!-- mypic --> */}
             <div className="section__pic-container">
-                <img src="src/assets/img/photo.jpeg" alt="israel_adedamola_picture"/>
+                <img src="../src/assets/img/photo.jpeg" alt="israel_adedamola_picture"/>
             </div>
             {/* <!-- text --> */}
             <div className="section__text">
@@ -27,10 +27,10 @@ function Profile(){
                 </div>
                 {/* <!-- mysocials --> */}
                 <div id="socials-container">
-                    <img src="src/assets/icons/icons8-linkedin.gif"
+                    <img src="../src/assets/icons/icons8-linkedin.gif"
                     alt="Israel's LinkedIn profile" className="icon" 
                     />
-                    <img src="src/assets/icons/icons8-github.gif" 
+                    <img src="../src/assets/icons/icons8-github.gif" 
                     alt="Israel's Github profile" className="icon"
                     />
                 </div>
