@@ -7,7 +7,7 @@ function Profile(){
         <section id="profile">
             {/* <!-- mypic --> */}
             <div className="section__pic-container">
-                <img src="../src/assets/img/photo.jpeg" alt="israel_adedamola_picture"/>
+                <img src="https://drive.google.com/file/d/15D7_DePoyol2bXqT9pA19NZITQwXErLB/view?usp=drive_link" alt="israel_adedamola_picture"/>
             </div>
             {/* <!-- text --> */}
             <div className="section__text">
