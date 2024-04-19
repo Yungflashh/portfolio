@@ -1,7 +1,29 @@
+import twitter from '/src/assets/icons/icons8-twitter.gif'
+import git from '/src/assets/icons/icons8-github.gif'
+import linkedin from '/src/assets/icons/icons8-linkedin.gif'
+import email from '/src/assets/icons/icons8-email.gif'
+
+
 
 
 
 function Contact(){
+    const linkedinClickHandle = ()=>{
+        location.href='https://www.linkedin.com/in/israel-adedamola-606373139/'
+    }
+
+    const gitClickHandle = ()=>{
+        location.href='https://github.com/KamiNation'
+    }
+
+    const xClickHandle = ()=>{
+        location.href='https://www.x.com/kamii_ai'
+    }
+
+    const mailClickHandle = ()=>{
+        location.href="mailto:adedamolacopy@gmail.com"
+    }
+
     return (
         <>
         <section id="contact">
@@ -13,22 +35,25 @@ function Contact(){
             <div className="contact-info-upper-container">
                 {/* <!-- contact-info --> */}
                 <div className="contact-info-container">
-                    <img src="src/assets/icons/icons8-email.gif" alt="Email icon"
+                    <img src={email} alt="Email icon"
                         className="icon contact-icon email-icon" />
-                    <p><a href="mailto:adedamolacopy@gmail.com">Israel Email</a></p>
+                        <div onClick={mailClickHandle}>Israel's Email</div>
+                    
                 </div>
                 <div className="contact-info-container">
-                    <img src="src/assets/icons/icons8-linkedin.gif" alt="LinkedIn icon"
+                    <img src={linkedin} alt="LinkedIn icon"
                         className="icon contact-icon" />
-                    <p><a href="https://www.linkedin.com/in/israel-adedamola-606373139/'">LinkedIn</a></p>
+                    <div onClick={linkedinClickHandle}>LinkedIn</div>
                 </div>
                 <div className="contact-info-container">
-                    <img src="src/assets/icons/icons8-github.gif" alt="Github icon" className="icon contact-icon" />
-                    <p><a href="https://www.github.com/KamiNation">Github</a></p>
+                    <img src={git} alt="Github icon" className="icon contact-icon" />
+                    <div onClick={gitClickHandle}>Github</div>
+                        
                 </div>
                 <div className="contact-info-container">
-                    <img src="src/assets/icons/icons8-twitter.gif" alt="Github icon" className="icon contact-icon" />
-                    <p><a href="https://www.x.com/kamii_ai">X</a></p>
+                    <img src={twitter} alt="Github icon" className="icon contact-icon" />
+                    <div onClick={xClickHandle}>X</div>
+                    
                 </div>
             </div>
         </section>

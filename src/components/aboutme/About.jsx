@@ -1,3 +1,8 @@
+import aboutme from '/src/assets/img/about-me.jpeg'
+import experience from '/src/assets/icons/icons8-experience.gif'
+import arrow from '/src/assets/icons/icons8-down-arrow.gif'
+
+
 function About() {
     return (
         <>
@@ -12,7 +17,7 @@ function About() {
 
                     {/* <!-- mypic --> */}
                     <div class="section__pic-container">
-                        <img src="src/assets/img/photo.jpeg" alt="Profile picture" class="about-pic" />
+                        <img src={aboutme} alt="Profile picture" class="about-pic" />
                     </div>
 
                     {/* <!-- myabout --> */}
@@ -23,14 +28,14 @@ function About() {
 
                             {/* <!-- mydetails-container --> */}
                             <div class="details-container">
-                                <img src="src/assets/icons/icons8-experience.gif" alt="Experience icon" class="icon" />
+                                <img src={experience} alt="Experience icon" class="icon" />
                                 <h3>Experience</h3>
                                 <p>1+ years </p><br />Technical Writing
                             </div>
 
                             {/* <!-- mydetails-container --> */}
                             <div class="details-container">
-                                <img src="src/assets/icons/icons8-experience.gif" alt="Education icon" class="icon" />
+                                <img src={experience} alt="Education icon" class="icon" />
                                 <h3>Experience</h3>
                                 <p>6month </p> <br />Software development
                             </div>
@@ -52,7 +57,7 @@ function About() {
                     </div>
                 </div>
                 {/* <!-- myarrow --> */}
-                <img src="./src/assets/icons/icons8-down-arrow.gif" alt="Arrow icon" class="icon arrow"
+                <img src={arrow} alt="Arrow icon" class="icon arrow"
                 />
             </section>
         </>

@@ -1,3 +1,8 @@
+import certified from '/home/kami/Desktop/portfolio/src/assets/icons/icons8-certified.gif'
+import arrow from '/src/assets/icons/icons8-down-arrow.gif'
+
+
+
 function Experience() {
     return (
         <>
@@ -17,7 +22,7 @@ function Experience() {
                             {/* <!-- mysection-container --> */}
                             <div className="article-container">
                                 <article>
-                                    <img src="src/assets/icons/icons8-certified.gif" 
+                                    <img src={certified} 
                                     alt="Experience icon" 
                                     className="icon"/>
                                     <div>
@@ -26,7 +31,7 @@ function Experience() {
                                     </div>
                                 </article>
                                 <article>
-                                    <img src="src/assets/icons/icons8-certified.gif" 
+                                    <img src={certified} 
                                     alt="Experience icon" 
                                     className="icon"/>
                                     <div>
@@ -36,7 +41,7 @@ function Experience() {
                                     </div>
                                 </article>
                                 <article>
-                                    <img src="src/assets/icons/icons8-certified.gif" 
+                                    <img src={certified} 
                                     alt="Experience icon" 
                                     className="icon" />
                                     <div>
@@ -45,7 +50,7 @@ function Experience() {
                                     </div>
                                 </article>
                                 <article>
-                                    <img src="src/assets/icons/icons8-certified.gif" 
+                                    <img src={certified} 
                                     alt="Experience icon" 
                                     className="icon"/>
                                     <div>
@@ -54,7 +59,7 @@ function Experience() {
                                     </div>
                                 </article>
                                 <article>
-                                    <img src="src/assets/icons/icons8-certified.gif" 
+                                    <img src={certified} 
                                     alt="Experience icon" 
                                     className="icon"/>
                                     <div>
@@ -63,7 +68,7 @@ function Experience() {
                                     </div>
                                 </article>
                                 <article>
-                                    <img src="src/assets/icons/icons8-certified.gif" 
+                                    <img src={certified} 
                                     alt="Experience icon" 
                                     className="icon"/>
                                     <div>
@@ -80,7 +85,7 @@ function Experience() {
                             {/* <!-- mysection-container --> */}
                             <div className="article-container">
                                 <article>
-                                    <img src="src/assets/icons/icons8-certified.gif" 
+                                    <img src={certified} 
                                     alt="Experience icon" 
                                     className="icon"/>
                                     <div>
@@ -89,7 +94,7 @@ function Experience() {
                                     </div>
                                 </article>
                                 <article>
-                                    <img src="src/assets/icons/icons8-certified.gif" 
+                                    <img src={certified} 
                                     alt="Experience icon" 
                                     className="icon"/>
                                     <div>
@@ -98,7 +103,7 @@ function Experience() {
                                     </div>
                                 </article>
                                 <article>
-                                    <img src="src/assets/icons/icons8-certified.gif" 
+                                    <img src={certified} 
                                     alt="Experience icon" 
                                     className="icon"/>
                                     <div>
@@ -107,7 +112,7 @@ function Experience() {
                                     </div>
                                 </article>
                                 <article>
-                                    <img src="src/assets/icons/icons8-certified.gif" 
+                                    <img src={certified} 
                                     alt="Experience icon" 
                                     className="icon"/>
                                     <div>
@@ -119,8 +124,7 @@ function Experience() {
                         </div>
                     </div>
                 </div>
-                <img src="src/assets/icons/icons8-down-arrow.gif" 
-                alt="Arrow icon"  className="icon arrow"
+                <img src={arrow} alt="Arrow icon" class="icon arrow"
                 />
             </section>
         </>
