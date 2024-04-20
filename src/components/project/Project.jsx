@@ -62,7 +62,7 @@ function Project(){
                 </div>
             </div>
             {/* <!-- my-arrow --> */}
-            <img src={arrow} alt="Arrow icon" class="icon arrow"
+            <img src={arrow} alt="Arrow icon" className="icon arrow"
                 onClick={arrowClickHandle}
                 />
         </section>
@@ -71,7 +71,7 @@ function Project(){
 }
 
 export default Project;
-{/*onClick={} */}
+
 {/* onClick={location.href='https://github.com/'}
 onClick={location.href='https://github.com/'}
 onClick={location.href='https://github.com/'}

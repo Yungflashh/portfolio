@@ -71,7 +71,7 @@ a:hover {
 
 .dark-mode{
   background-color: black;
-  color: white;
+  color: green;
 }
 
 /* HAMBURGER MENU */
@@ -250,7 +250,7 @@ section {
 .btn-color-1,
 .btn-color-2:hover {
     background: rgb(53, 53, 53);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .btn-color-1:hover {

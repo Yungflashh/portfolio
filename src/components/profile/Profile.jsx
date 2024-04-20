@@ -56,7 +56,7 @@ function Profile() {
                     {/* <!-- text-p2 --> */}
                     <p className="section__text__p2">Software Developer | Technical writer</p>
                     <div className="btn-container">
-                        <button className="btn btn-color-2" onClick={onButtonClick} >
+                        <button className="btn btn-color-1" onClick={onButtonClick} >
                             Download CV
                         </button>
                         <button className="btn btn-color-1" onClick={contactClickHandle}  >
